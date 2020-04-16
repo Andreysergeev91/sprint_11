@@ -1,11 +1,13 @@
 {
   "name": "yandex_praktikum",
+  "homepage": "https://Andreysergeev91.github.io/sprint_11/",
   "version": "0.0.1",
   "description": "",
   "main": "index.js",
   "scripts": {
     "build": "rimraf dist && webpack --mode production",
-    "dev": "webpack-dev-server --mode development --open --watch"
+    "dev": "webpack-dev-server --mode development --open --watch",
+    "deploy": "gh-pages -d dist"
   },
   "author": "Andrey Sergeev",
   "license": "ISC",
